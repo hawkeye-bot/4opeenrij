@@ -7,10 +7,10 @@ import java.util.List;
 
 @Data
 public class BoardStatus {
-    private static final int ROWS = 6;
-    private static final int COLUMNS = 7;
+    public static final int ROWS = 6;
+    public static final int COLUMNS = 7;
 
-    private List<List<Player>> board;
+    private List<List<Player>> board = new ArrayList<>();
 
     public void startNewGame() {
         this.board = new ArrayList<>();
