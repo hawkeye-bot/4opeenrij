@@ -87,6 +87,8 @@
                             <library>native</library>
                             <generateApis>false</generateApis>
                             <generateApiDocumentation>false</generateApiDocumentation>
+                            <generateApiTests>false</generateApiTests>
+                            <generateModelTests>false</generateModelTests>
                             <generateSupportingFiles>false</generateSupportingFiles>
                             <apiPackage>nl.newnexus</apiPackage>
                             <modelPackage>nl.newnexus.model</modelPackage>
